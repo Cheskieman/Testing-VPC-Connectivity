@@ -21,7 +21,7 @@
 
 * Search and Select VPC from AWS Searchbar
 <p align="center">  
-  <img src="VPCSETUP Select VPC from AWS Searchbar.png alt="Search VPC" width="900" />  
+  <img src="VPCSETUP Select VPC from AWS Searchbar.png" alt="Search VPC" width="900" />  
 </p>  
 * Select Create VPC
 <p align="center">  
@@ -124,39 +124,39 @@
 
 * Search and Select EC2 from AWS Searchbar
 <p align="center">  
-  <img src="VPCSETUP Click Create Security Group at the bottom.png" alt="Select Create Security Group" width="900" />  
+  <img src="EC2 Select EC2 from searchbar.png" alt="Select EC2 AWS Searchbar" width="900" />  
 </p>  
 * Select Instances from the left hand navigation panel
 <p align="center">  
-  <img src="VPCSETUP Click Create Security Group at the bottom.png" alt="Select Create Security Group" width="900" />  
+  <img src="EC2 Select Instances from Navigation Panel.png" alt="Select Instances from Navigation Panel" width="900" />  
 </p>  
 * Select Launch Instances from top right
 <p align="center">  
-  <img src="VPCSETUP Click Create Security Group at the bottom.png" alt="Select Create Security Group" width="900" />  
+  <img src="EC2 Select Launch Instances from top right.png" alt="Select Launch Instance" width="900" />  
 </p>  
 * Give your instance a name
 <p align="center">  
-  <img src="VPCSETUP Click Create Security Group at the bottom.png" alt="Select Create Security Group" width="900" />  
+  <img src="EC2 Select Launch Instances from top right.png" alt="Give Instance Name" width="900" />  
 </p>  
 * Select your Keypair
 <p align="center">  
-  <img src="VPCSETUP Click Create Security Group at the bottom.png" alt="Select Create Security Group" width="900" />  
+  <img src="EC2 Select Keypair.png" alt="Select Keypair" width="900" />  
 </p>  
 * Select Edit next to Network Settings.
 <p align="center">  
-  <img src="VPCSETUP Click Create Security Group at the bottom.png" alt="Select Create Security Group" width="900" />  
+  <img src="EC2 Select edit instance network settings.png" alt="Select Edit" width="900" />  
 </p>  
 * Select the VPC created from earleir
 <p align="center">  
-  <img src="VPCSETUP Click Create Security Group at the bottom.png" alt="Select Create Security Group" width="900" />  
+  <img src="VPCSETUP Select the vpc created earlier for security group setup.png" alt="Select Earlier Created VPC" width="900" />  
 </p>  
 * Select the Public Subnet created from earlier
 <p align="center">  
-  <img src="VPCSETUP Click Create Security Group at the bottom.png" alt="Select Create Security Group" width="900" />  
+  <img src="VPCSETUP Select the vpc created earlier for security group setup.png" alt="Select Public Subnet Earlier" width="900" />  
 </p>  
 * Select Enable for Auto-assign public IP
 <p align="center">  
-  <img src="VPCSETUP Click Create Security Group at the bottom.png" alt="Select Create Security Group" width="900" />  
+  <img src="EC2 instance network settings enable auto-assign public ip.png" alt="Select Enable " width="900" />  
 </p>  
 * Select existing security group
 <p align="center">  
