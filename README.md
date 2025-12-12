@@ -123,17 +123,83 @@
 **Create an EC2 Instance &....**
 
 * Search and Select EC2 from AWS Searchbar
-
+<p align="center">  
+  <img src="VPCSETUP Click Create Security Group at the bottom.png" alt="Select Create Security Group" width="900" />  
+</p>  
 * Select Instances from the left hand navigation panel
-
+<p align="center">  
+  <img src="VPCSETUP Click Create Security Group at the bottom.png" alt="Select Create Security Group" width="900" />  
+</p>  
 * Select Launch Instances from top right
-
+<p align="center">  
+  <img src="VPCSETUP Click Create Security Group at the bottom.png" alt="Select Create Security Group" width="900" />  
+</p>  
 * Give your instance a name
-
+<p align="center">  
+  <img src="VPCSETUP Click Create Security Group at the bottom.png" alt="Select Create Security Group" width="900" />  
+</p>  
 * Select your Keypair
-
+<p align="center">  
+  <img src="VPCSETUP Click Create Security Group at the bottom.png" alt="Select Create Security Group" width="900" />  
+</p>  
 * Select Edit next to Network Settings.
+<p align="center">  
+  <img src="VPCSETUP Click Create Security Group at the bottom.png" alt="Select Create Security Group" width="900" />  
+</p>  
+* Select the VPC created from earleir
+<p align="center">  
+  <img src="VPCSETUP Click Create Security Group at the bottom.png" alt="Select Create Security Group" width="900" />  
+</p>  
+* Select the Public Subnet created from earlier
+<p align="center">  
+  <img src="VPCSETUP Click Create Security Group at the bottom.png" alt="Select Create Security Group" width="900" />  
+</p>  
+* Select Enable for Auto-assign public IP
+<p align="center">  
+  <img src="VPCSETUP Click Create Security Group at the bottom.png" alt="Select Create Security Group" width="900" />  
+</p>  
+* Select existing security group
+<p align="center">  
+  <img src="VPCSETUP Click Create Security Group at the bottom.png" alt="Select Create Security Group" width="900" />  
+</p>  
+* Select the Security group created from earlier
+<p align="center">  
+  <img src="VPCSETUP Click Create Security Group at the bottom.png" alt="Select Create Security Group" width="900" />  
+</p>  
+* Select Launch Instance at the bottom
+<p align="center">  
+  <img src="VPCSETUP Click Create Security Group at the bottom.png" alt="Select Create Security Group" width="900" />  
+</p>  
+* Do the same process over again but with the following exceptions (all which are under the Network settings section)
 
+   * Select a Private Subnet
+ <p align="center">  
+  <img src="VPCSETUP Click Create Security Group at the bottom.png" alt="Select Create Security Group" width="900" />  
+</p>  
+   * Auto-assign public IP keep as disabled
+ <p align="center">  
+  <img src="VPCSETUP Click Create Security Group at the bottom.png" alt="Select Create Security Group" width="900" />  
+</p>  
+   * Select Create security group
+ <p align="center">  
+  <img src="VPCSETUP Click Create Security Group at the bottom.png" alt="Select Create Security Group" width="900" />  
+</p>  
+   * Give your security group a name
+ <p align="center">  
+  <img src="VPCSETUP Click Create Security Group at the bottom.png" alt="Select Create Security Group" width="900" />  
+</p>  
+   * Give your security group a description
+ <p align="center">  
+  <img src="VPCSETUP Click Create Security Group at the bottom.png" alt="Select Create Security Group" width="900" />  
+</p>  
+   * Under SSH change the Source type to Custom
+ <p align="center">  
+  <img src="VPCSETUP Click Create Security Group at the bottom.png" alt="Select Create Security Group" width="900" />  
+</p>  
+   * Under SSH change the Source to the Public Subnet created earlier
+<p align="center">  
+  <img src="VPCSETUP Click Create Security Group at the bottom.png" alt="Select Create Security Group" width="900" />  
+</p>  
 
 
 
