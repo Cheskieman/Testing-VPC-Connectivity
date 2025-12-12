@@ -12,6 +12,8 @@
 
 * Set up a VPC & Network ACL
 
+* Create an EC2 Instance and .......
+
 
 #### Step by Step Instructions guidance
 
@@ -117,6 +119,22 @@
 <p align="center">  
   <img src="VPCSETUP Click Create Security Group at the bottom.png" alt="Select Create Security Group" width="900" />  
 </p>  
+
+**Create an EC2 Instance &....**
+
+* Search and Select EC2 from AWS Searchbar
+
+* Select Instances from the left hand navigation panel
+
+* Select Launch Instances from top right
+
+* Give your instance a name
+
+* Select your Keypair
+
+* Select Edit next to Network Settings.
+
+
 
 
 
