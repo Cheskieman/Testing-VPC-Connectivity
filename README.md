@@ -136,7 +136,7 @@
 </p>  
 * Give your instance a name
 <p align="center">  
-  <img src="EC2 Select Launch Instances from top right.png" alt="Give Instance Name" width="900" />  
+  <img src="EC2 give instance a name.png" alt="Give Instance Name" width="900" />  
 </p>  
 * Select your Keypair
 <p align="center">  
@@ -152,7 +152,7 @@
 </p>  
 * Select the Public Subnet created from earlier
 <p align="center">  
-  <img src="VPCSETUP Select the vpc created earlier for security group setup.png" alt="Select Public Subnet Earlier" width="900" />  
+  <img src="EC2 Select Instance Network Settings Public Subnet that I set up earlier.png" alt="Select Public Subnet Earlier" width="900" />  
 </p>  
 * Select Enable for Auto-assign public IP
 <p align="center">  
@@ -160,45 +160,45 @@
 </p>  
 * Select existing security group
 <p align="center">  
-  <img src="VPCSETUP Click Create Security Group at the bottom.png" alt="Select Create Security Group" width="900" />  
+  <img src="EC2 network settings firewall select existing security group.png" alt="Select Existing Security Group" width="900" />  
 </p>  
 * Select the Security group created from earlier
 <p align="center">  
-  <img src="VPCSETUP Click Create Security Group at the bottom.png" alt="Select Create Security Group" width="900" />  
+  <img src="EC2 Instance Network Setting Select Security Group Created earlier.png" alt="Select earlier created Security Group" width="900" />  
 </p>  
 * Select Launch Instance at the bottom
 <p align="center">  
-  <img src="VPCSETUP Click Create Security Group at the bottom.png" alt="Select Create Security Group" width="900" />  
+  <img src="EC2 Instance Select Launch Instance at bottom.png" alt="Select Launch Instance at the bottom" width="900" />  
 </p>  
 * Do the same process over again but with the following exceptions (all which are under the Network settings section)
 
    * Select a Private Subnet
  <p align="center">  
-  <img src="VPCSETUP Click Create Security Group at the bottom.png" alt="Select Create Security Group" width="900" />  
+  <img src="EC2 instance number 2 network settings select private subnet.png" alt="Select Private Subnet" width="900" />  
 </p>  
    * Auto-assign public IP keep as disabled
  <p align="center">  
-  <img src="VPCSETUP Click Create Security Group at the bottom.png" alt="Select Create Security Group" width="900" />  
+  <img src="EC2 instance number 2 network settings DISABLE auto-assign public ip.png" alt="Select Disable for AutoAssign IP" width="900" />  
 </p>  
    * Select Create security group
  <p align="center">  
-  <img src="VPCSETUP Click Create Security Group at the bottom.png" alt="Select Create Security Group" width="900" />  
+  <img src="EC2 instance number 2 network settings select creaste security group.png" alt="Select Create Security Group in Network Settings" width="900" />  
 </p>  
    * Give your security group a name
  <p align="center">  
-  <img src="VPCSETUP Click Create Security Group at the bottom.png" alt="Select Create Security Group" width="900" />  
+  <img src="EC2 instance number 2 network settings give securty group a name.png" alt="Give Security Group Name in Network Settings" width="900" />  
 </p>  
    * Give your security group a description
  <p align="center">  
-  <img src="VPCSETUP Click Create Security Group at the bottom.png" alt="Select Create Security Group" width="900" />  
+  <img src="VPCSETUP give securty group a description.png" alt="Give your Security Group a Description" width="900" />  
 </p>  
    * Under SSH change the Source type to Custom
  <p align="center">  
-  <img src="VPCSETUP Click Create Security Group at the bottom.png" alt="Select Create Security Group" width="900" />  
+  <img src="EC2 instance number 2 network settings change to custom in ssh setting.png" alt="Change SSH source type." width="900" />  
 </p>  
    * Under SSH change the Source to the Public Subnet created earlier
 <p align="center">  
-  <img src="VPCSETUP Click Create Security Group at the bottom.png" alt="Select Create Security Group" width="900" />  
+  <img src="EC2 instance number 2 network settings ssh source public subnet.png" alt="Change SSH Source" width="900" />  
 </p>  
 
 
