@@ -124,7 +124,7 @@
   <img src="VPCSETUP Click Create Security Group at the bottom.png" alt="Select Create Security Group" width="900" />  
 </p>  
 
-**Create an EC2 Instance &....**
+**Create an EC2 Instance & Attach Appropiate Security Groups**
 
 * Search and Select EC2 from AWS Searchbar
 <p align="center">  
@@ -177,17 +177,17 @@
 * Do the same process over again but with the following exceptions (all which are under the Network settings section)
 
 
-   * Give a name that represents that this will be a private EC2 Server
+* Give a name that represents that this will be a private EC2 Server
 
-   * Select a Private Subnet
+* Select a Private Subnet
  <p align="center">  
   <img src="EC2 instance number 2 network settings select private subnet.png" alt="Select Private Subnet" width="900" />  
 </p>  
-   * Auto-assign public IP keep as disabled
+ * Auto-assign public IP keep as disabled
  <p align="center">  
   <img src="EC2 instance number 2 network settings DISABLE auto-assign public ip.png" alt="Select Disable for AutoAssign IP" width="900" />  
 </p>  
-   * Select Create security group
+ * Select Create security group
  <p align="center">  
   <img src="EC2 instance number 2 network settings select creaste security group.png" alt="Select Create Security Group in Network Settings" width="900" />  
 </p>  
@@ -213,60 +213,70 @@
 
 * Select the Public EC2 Instance recently created
 <p align="center">  
-  <img src="EC2 instance number 2 network settings ssh source public subnet.png" alt="Change SSH Source" width="900" />  
+  <img src="EC2 Select the EC2 Public Server recently created.png" alt="Select recently created public EC2 Instance" width="900" />  
 </p> 
 * Select Connect at top right
 <p align="center">  
-  <img src="EC2 instance number 2 network settings ssh source public subnet.png" alt="Change SSH Source" width="900" />  
+  <img src="EC2 Select Connect in top right corner.png" alt="Select Connect top right" width="900" />  
 </p> 
 * Select the EC2 Instance Connect Tab
 <p align="center">  
-  <img src="EC2 instance number 2 network settings ssh source public subnet.png" alt="Change SSH Source" width="900" />  
+  <img src="EC2 Select the EC2 Instance connect tab.png" alt="Select the EC2 Instance Connect tab" width="900" />  
 </p> 
 * Select Connect at the bottom
 <p align="center">  
-  <img src="EC2 instance number 2 network settings ssh source public subnet.png" alt="Change SSH Source" width="900" />  
+  <img src="EC2 Select connect at bottom .png" alt="Select Connect at the bottom" width="900" />  
 </p> 
 * An error message appears that "Failed to connect to your instance"
 <p align="center">  
-  <img src="EC2 instance number 2 network settings ssh source public subnet.png" alt="Change SSH Source" width="900" />  
+  <img src="EC2 error message when connecting to ec2 instance connect.png" alt="Error message connecting to EC2 Instance Connect" width="900" />  
 </p> 
 * The error occurs because the EC2 instance’s inbound security rules do not allow SSH traffic.
 <p align="center">  
-  <img src="EC2 instance number 2 network settings ssh source public subnet.png" alt="Change SSH Source" width="900" />  
+  <img src="EC2 reason for EC2 instance connect not working inbound rules status.png" alt="Reason for error message" width="900" />  
 </p> 
 * Search and Select Security Groups from AWS Searchbar
 <p align="center">  
-  <img src="EC2 instance number 2 network settings ssh source public subnet.png" alt="Change SSH Source" width="900" />  
+  <img src="EC2 select Securty group from AWS searchbar.png" alt="Select Security Group from AWS Searchbar" width="900" />  
 </p> 
 * Select the Public Security Group created from earlier
 <p align="center">  
-  <img src="EC2 instance number 2 network settings ssh source public subnet.png" alt="Change SSH Source" width="900" />  
+  <img src="EC2 Select public security group created from earlier.png" alt="Select Public Security Group created from earlier" width="900" />  
 </p> 
 * Select by scrolling down the inbound rules tab
 <p align="center">  
-  <img src="EC2 instance number 2 network settings ssh source public subnet.png" alt="Change SSH Source" width="900" />  
+  <img src="EC2 Select the inbound rules tab below.png" alt="Select Inbound Rules tab" width="900" />  
 </p> 
 * Select the edit inbound rules button
 <p align="center">  
-  <img src="EC2 instance number 2 network settings ssh source public subnet.png" alt="Change SSH Source" width="900" />  
+  <img src="EC2 edit inbound rules tab security group.png" alt="Select edit inbound rules buutton" width="900" />  
 </p> 
 * Select Add rule in edit inbound rules
 <p align="center">  
-  <img src="EC2 instance number 2 network settings ssh source public subnet.png" alt="Change SSH Source" width="900" />  
+  <img src="VPCSETUP add rule inbound security group.png" alt="Select Add rules button." width="900" />  
 </p> 
 * Select as the type SSH and the source anywhere ipv4
 <p align="center">  
-  <img src="EC2 instance number 2 network settings ssh source public subnet.png" alt="Change SSH Source" width="900" />  
+  <img src="EC2 set new security rule to SSH and anywhere ipv4.png" alt="Select new type and source" width="900" />  
 </p> 
 * Select Save Rules
 <p align="center">  
-  <img src="EC2 instance number 2 network settings ssh source public subnet.png" alt="Change SSH Source" width="900" />  
+  <img src="EC2 Select save rules for security groups.png" alt="Click Save Rules" width="900" />  
 </p> 
 * Repeat the steps above to connect to the EC2 Instance Connect and now connection can be established
 <p align="center">  
-  <img src="EC2 instance number 2 network settings ssh source public subnet.png" alt="Change SSH Source" width="900" />  
+  <img src="EC2 ec2 instance connect connection can be established.png" alt="Succesfully Established Connection" width="900" />  
 </p> 
+
+**Test Connectivity between EC2 Instances**
+
+* Select from yourinstances the Private EC2 Instance created earlier
+
+* Scroll down and copy the private ipv4 address
+
+* Go back into your EC2 Instance connect terminal and type ping followed by the private ipv4 address that was just copied and press enter
+
+* 
 
 
 
