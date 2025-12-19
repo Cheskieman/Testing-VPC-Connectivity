@@ -33,7 +33,7 @@
 </p>  
 * Give an specfic name in the auto-generation box.
 <p align="center">  
-  <img src="VPCSETUP Select VPC and more.png" alt="Select auto generation" width="900" />  
+  <img src="VPCSETUP Auto Generation Give Name.png" alt="Give name auto generation box" width="900" />  
 </p>  
 * Scroll down and change the availibility zone number to one.
 <p align="center">  
@@ -41,7 +41,7 @@
 </p>  
 * Scroll down and click on arrow for Customize subnets CIDR blocks and input the ip addresses displayed in the two subnet boxes.
 <p align="center">  
-  <img src="VPCSETUPCHANGEAVAILIBITYZONEQUANTITY.png" alt="Select Customizable CIDR" width="900" />  
+  <img src="VPCSETUP Change the customize suubnets CIDR blocks.png" alt="Select Customizable CIDR" width="900" />  
 </p>  
 * Scroll down to where it says NAT Gateways and select the option for none.
 <p align="center">  
