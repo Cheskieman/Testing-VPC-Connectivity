@@ -8,11 +8,15 @@
  
 * Test VPC connectivity with the internet.
 
-### This project will demostrate how to 
+### This project will demonstrate how to 
 
 * Set up a VPC & Network ACL
 
-* Create an EC2 Instance and .......
+* Create two seperate EC2 Instances
+
+* Connect to the EC2 instance using EC2 Instance Connect after resolving the connection error
+
+* Test connectivity between both EC2 Instances that were created
 
 
 #### Step by Step Instructions guidance
@@ -134,8 +138,8 @@
 <p align="center">  
   <img src="EC2 Select Launch Instances from top right.png" alt="Select Launch Instance" width="900" />  
 </p>  
-* Give your instance a name
-<p align="center">  
+* Give your instance a name(that represents that this is a Public Server).
+<p align="center"> 
   <img src="EC2 give instance a name.png" alt="Give Instance Name" width="900" />  
 </p>  
 * Select your Keypair
@@ -172,6 +176,9 @@
 </p>  
 * Do the same process over again but with the following exceptions (all which are under the Network settings section)
 
+
+   * Give a name that represents that this will be a private EC2 Server
+
    * Select a Private Subnet
  <p align="center">  
   <img src="EC2 instance number 2 network settings select private subnet.png" alt="Select Private Subnet" width="900" />  
@@ -201,6 +208,65 @@
   <img src="EC2 instance number 2 network settings ssh source public subnet.png" alt="Change SSH Source" width="900" />  
 </p>  
 
+
+**CONNECT TO PUBLIC SERVER**
+
+* Select the Public EC2 Instance recently created
+<p align="center">  
+  <img src="EC2 instance number 2 network settings ssh source public subnet.png" alt="Change SSH Source" width="900" />  
+</p> 
+* Select Connect at top right
+<p align="center">  
+  <img src="EC2 instance number 2 network settings ssh source public subnet.png" alt="Change SSH Source" width="900" />  
+</p> 
+* Select the EC2 Instance Connect Tab
+<p align="center">  
+  <img src="EC2 instance number 2 network settings ssh source public subnet.png" alt="Change SSH Source" width="900" />  
+</p> 
+* Select Connect at the bottom
+<p align="center">  
+  <img src="EC2 instance number 2 network settings ssh source public subnet.png" alt="Change SSH Source" width="900" />  
+</p> 
+* An error message appears that "Failed to connect to your instance"
+<p align="center">  
+  <img src="EC2 instance number 2 network settings ssh source public subnet.png" alt="Change SSH Source" width="900" />  
+</p> 
+* The error occurs because the EC2 instance’s inbound security rules do not allow SSH traffic.
+<p align="center">  
+  <img src="EC2 instance number 2 network settings ssh source public subnet.png" alt="Change SSH Source" width="900" />  
+</p> 
+* Search and Select Security Groups from AWS Searchbar
+<p align="center">  
+  <img src="EC2 instance number 2 network settings ssh source public subnet.png" alt="Change SSH Source" width="900" />  
+</p> 
+* Select the Public Security Group created from earlier
+<p align="center">  
+  <img src="EC2 instance number 2 network settings ssh source public subnet.png" alt="Change SSH Source" width="900" />  
+</p> 
+* Select by scrolling down the inbound rules tab
+<p align="center">  
+  <img src="EC2 instance number 2 network settings ssh source public subnet.png" alt="Change SSH Source" width="900" />  
+</p> 
+* Select the edit inbound rules button
+<p align="center">  
+  <img src="EC2 instance number 2 network settings ssh source public subnet.png" alt="Change SSH Source" width="900" />  
+</p> 
+* Select Add rule in edit inbound rules
+<p align="center">  
+  <img src="EC2 instance number 2 network settings ssh source public subnet.png" alt="Change SSH Source" width="900" />  
+</p> 
+* Select as the type SSH and the source anywhere ipv4
+<p align="center">  
+  <img src="EC2 instance number 2 network settings ssh source public subnet.png" alt="Change SSH Source" width="900" />  
+</p> 
+* Select Save Rules
+<p align="center">  
+  <img src="EC2 instance number 2 network settings ssh source public subnet.png" alt="Change SSH Source" width="900" />  
+</p> 
+* Repeat the steps above to connect to the EC2 Instance Connect and now connection can be established
+<p align="center">  
+  <img src="EC2 instance number 2 network settings ssh source public subnet.png" alt="Change SSH Source" width="900" />  
+</p> 
 
 
 
