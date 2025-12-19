@@ -109,7 +109,7 @@
 </p>  
 * Select add rule under Inbound rules
 <p align="center">  
-  <img src="VPCSETUP Select the earlier created VPC.png" alt="Select Add Rules under Inbound Rules" width="900" />  
+  <img src="VPCSETUP add rule inbound security group.png" alt="Select Add Rules under Inbound Rules" width="900" />  
 </p>  
 * Select HTTP and anywhere IPV4 as both the type and source for the Inbound Rule
 <p align="center">  
