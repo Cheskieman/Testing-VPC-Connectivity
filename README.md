@@ -275,48 +275,96 @@
 **Test Connectivity between EC2 Instances**
 
 * Select the Private EC2 Instance created earlier
-
+<p align="center">  
+  <img src="Select the Private EC2 Instance created from earlier.png" alt="Select Private EC2 Instance" width="900" />  
+</p> 
 * Scroll down and copy the private ipv4 address
-
+<p align="center">  
+  <img src="COPY THE PRIVATE EC2 IP ADDRESS.png" alt="Copy Private ipv4 address" width="900" />  
+</p> 
 * Go back into your EC2 Instance connect terminal and type ping followed by the private ipv4 address that was just copied and press enter
-
+<p align="center">  
+  <img src="PASTE PRIVATE IP ADDRESS INTO EC2 INSTANCE CONNECT.png" alt="ping private ipv4 address" width="900" />  
+</p> 
 * Only one ping reply is returned
-
 * The error occurs due to the fact that the ICMP connection for the private subnets's Network ACL is not configured
 
  * Search and Select VPC from AWS Searchbar
- 
+ <p align="center">  
+  <img src="VPCSETUP Select VPC from AWS Searchbar.png" alt="Selecty VPC from AWS searchbar" width="900" />  
+</p> 
  * Select Subnets from the left handed navigation panel
-
+<p align="center">  
+  <img src="SELECT SUBNET LEFT HAND NAVIGATION PANEL.png" alt="Select Subnets from left hand navigation panel" width="900" />  
+</p> 
  * Select the private subnet created earlier
-
+<p align="center">  
+  <img src="SELECT SUBNET LEFT HAND NAVIGATION PANEL.png" alt="Select Private Subnet created from eralier" width="900" />  
+</p> 
  * Scroll down and click Network ACL
-
+<p align="center">  
+  <img src="SELECT FROM SUBNETS NEXTWORK  ACL TAB.png alt="Select Network ACL Tab" width="900" />  
+</p> 
  * Click on the link under the Network ACL Tab
-
+<p align="center">  
+  <img src="click on network acl link.png" alt="Select Network ACL link" width="900" />  
+</p> 
  * Select the private NACL
-
+<p align="center">  
+  <img src="Nextwork Private NACL select.png" alt="Select Private NACL" width="900" />  
+</p> 
  * Scroll down and select the Inbound rules tab
-
+<p align="center">  
+  <img src="SELECT INBOUND RULES TAB NETWORK ACL PAGE.png" alt="Select the Inbound Rules Tab" width="900" />  
+</p> 
  * Select Edit inbound rules
-
+<p align="center">  
+  <img src="EC2 edit inbound rules tab security group.png" alt="Edit Inbound Rules" width="900" />  
+</p> 
  * Select Add new rule
-
+<p align="center">  
+  <img src="SELECT ADD NEW RULE BUTTON.png" alt="Add New Rule" width="900" />  
+</p> 
  * Select rule 100, allow All ICMP-IPv4, and set the source to the public subnet CIDR block.
-
+<p align="center">  
+  <img src="ICMP NETWOEK ACL INBOUND TRAFFIC CONTENTS.png" alt="Set up Inbound Rules" width="900" />  
+</p> 
  * Select Save Changes
-
+<p align="center">  
+  <img src="VPCSETUP Click save changes at bottom.png" alt="Save Network ACL Changes" width="900" />  
+</p> 
  *Select the private NACL, scroll down, click Outbound Rules, and repeat the same process. 
-
+<p align="center">  
+  <img src="SELECT OUTBOUND RULES TAB NETWORK ACL PAGE.png" alt="Select Outbound Rules Tab" width="900" />  
+</p> 
  * Select Security Groups from the left hand navigagtion panel
-
+<p align="center">  
+  <img src="VPCSETUP select security groups navigation panel.png" alt="Select Security Group from navigation Panel" width="900" />  
+</p> 
  * Select the private security group
-
+<p align="center">  
+  <img src="SELECT FROM SECURITY GROUPS PRIVATE SECURITY GROUP.png" alt="Select Private Security Group" width="900" />  
+</p> 
  * Scroll down and select Edit inbound rules
-
+<p align="center">  
+  <img src="EC2 edit inbound rules tab security group.png" alt="Select edit inbound rules" width="900" />  
+</p> 
  * Select add rule
-
+<p align="center">  
+  <img src="VPCSETUP add rule inbound security group.png" alt="Select Add Rule" width="900" />  
+</p> 
  * Select allow All ICMP-IPv4, and set the source to the public subnet.
+<p align="center">  
+  <img src="ICMP SECURTIY GROUP INBOUND TRAFFIC CONTENTS.png" alt="Set up ICMP Inbound rules for Security Group" width="900" />  
+</p> 
+ *  Go back into your EC2 Instance connect terminal and type ping followed by the private ipv4 address that was just copied and press Enter
+<p align="center">  
+  <img src="EC2 Instance Connect Continous flowing pings.png" alt="Continous pings" width="900" />  
+</p> 
+ *  The pings will be appearing in a continous manner.
+ 
+  
+
 
 
 
