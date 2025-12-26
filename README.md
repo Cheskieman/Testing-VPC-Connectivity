@@ -179,7 +179,9 @@
   <img src="EC2 Instance Select Launch Instance at bottom.png" alt="Select Launch Instance at the bottom" width="900" />  
 </p>  
 * Do the same process over again but with the following exceptions (all which are under the Network settings section)
+
 * Give a name that represents that this will be a private EC2 Server
+
 
 * Select a Private Subnet
  <p align="center">  
