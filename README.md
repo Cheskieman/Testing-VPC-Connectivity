@@ -75,6 +75,10 @@
 <p align="center">  
   <img src="VPCSETUP Click Create Network ACL bootm.png" alt="Create Network ACL" width="900" />  
 </p>  
+* Select the recently created ACL
+  <p align="center">  
+  <img src="Nextwork Private NACL select.pngNextwork Private NACL select.png" alt="Select recently created ACL" width="900" />  
+</p>  
 * Select the Subnet Asscociations tab
 <p align="center">  
   <img src="VPCSETUP Select Subnet Asscociations tab.png" alt="Select Subnet Asscociations Tab" width="900" />  
@@ -197,7 +201,7 @@
 </p>  
    * Give your security group a description
  <p align="center">  
-  <img src="VPCSETUP give securty group a description.png" alt="Give your Security Group a Description" width="900" />  
+  <img src="EC2 instance number 2 network settings security group description.png" alt="Give your Security Group a Description" width="900" />  
 </p>  
    * Under SSH change the Source type to Custom
  <p align="center">  
