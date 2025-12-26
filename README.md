@@ -77,7 +77,7 @@
 </p>  
 * Select the recently created ACL
   <p align="center">  
-  <img src="Nextwork Private NACL select.pngNextwork Private NACL select.png" alt="Select recently created ACL" width="900" />  
+  <img src="Nextwork Private NACL select.png" alt="Select recently created ACL" width="900" />  
 </p>  
 * Select the Subnet Asscociations tab
 <p align="center">  
@@ -179,8 +179,6 @@
   <img src="EC2 Instance Select Launch Instance at bottom.png" alt="Select Launch Instance at the bottom" width="900" />  
 </p>  
 * Do the same process over again but with the following exceptions (all which are under the Network settings section)
-
-
 * Give a name that represents that this will be a private EC2 Server
 
 * Select a Private Subnet
