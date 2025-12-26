@@ -18,6 +18,8 @@
 
 * Test connectivity between both EC2 Instances that were created
 
+* Test VPC Connectivity with the internet
+
 
 #### Step by Step Instructions guidance
 
@@ -362,6 +364,18 @@
   <img src="EC2 Instance Connect Continous flowing pings.png" alt="Continous pings" width="900" />  
 </p> 
  *  The pings will be appearing in a continous manner.
+
+ **TEST VPC CONNECTIVITY WITH INTERNET**
+
+ * Put following (below) command into your EC2 Instance Connect Terminal
+<p align="center">  
+  <img src="EC2 Instance Connect html content command output.png" alt="HTML output from our command" width="900" />  
+</p> 
+ 
+ * The output should be similar to what is above.
+ * This allows internet traffic between the public server and another public server.
+
+ 
  
   
 
