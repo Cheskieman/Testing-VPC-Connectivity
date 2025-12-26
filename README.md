@@ -274,14 +274,49 @@
 
 **Test Connectivity between EC2 Instances**
 
-* Select from yourinstances the Private EC2 Instance created earlier
+* Select the Private EC2 Instance created earlier
 
 * Scroll down and copy the private ipv4 address
 
 * Go back into your EC2 Instance connect terminal and type ping followed by the private ipv4 address that was just copied and press enter
 
-* 
+* Only one ping reply is returned
 
+* The error occurs due to the fact that the ICMP connection for the private subnets's Network ACL is not configured
+
+ * Search and Select VPC from AWS Searchbar
+ 
+ * Select Subnets from the left handed navigation panel
+
+ * Select the private subnet created earlier
+
+ * Scroll down and click Network ACL
+
+ * Click on the link under the Network ACL Tab
+
+ * Select the private NACL
+
+ * Scroll down and select the Inbound rules tab
+
+ * Select Edit inbound rules
+
+ * Select Add new rule
+
+ * Select rule 100, allow All ICMP-IPv4, and set the source to the public subnet CIDR block.
+
+ * Select Save Changes
+
+ *Select the private NACL, scroll down, click Outbound Rules, and repeat the same process. 
+
+ * Select Security Groups from the left hand navigagtion panel
+
+ * Select the private security group
+
+ * Scroll down and select Edit inbound rules
+
+ * Select add rule
+
+ * Select allow All ICMP-IPv4, and set the source to the public subnet.
 
 
 
