@@ -301,8 +301,8 @@
 </p> 
  * Select the private subnet created earlier
 <p align="center">  
-  <img src="SELECT SUBNET LEFT HAND NAVIGATION PANEL.png" alt="Select Private Subnet created from eralier" width="900" />  
-</p> 
+  <img src="ERROR SUBNETS SELECT NEXTWORK PRIVATE SUBNET.png" alt="Select Private Subnet created from eralier" width="900" />  
+  
  * Scroll down and click Network ACL
 <p align="center">  
   <img src="SELECT FROM SUBNETS NEXTWORK  ACL TAB.png" alt="Select Network ACL Tab" width="900" />  
