@@ -305,7 +305,7 @@
 </p> 
  * Scroll down and click Network ACL
 <p align="center">  
-  <img src="SELECT FROM SUBNETS NEXTWORK ACL TAB.png" alt="Select Network ACL Tab" width="900" />  
+  <img src="SELECT FROM SUBNETS NEXTWORK  ACL TAB.png" alt="Select Network ACL Tab" width="900" />  
 </p> 
  * Click on the link under the Network ACL Tab
 <p align="center">  
