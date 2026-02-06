@@ -1,8 +1,8 @@
 # Testing-VPC-Connectivity through multiple methods of connections
 
-## A complete step by step guide to test VPC Connectivity
+## A complete step-by-step guide to test VPC Connectivity by:
 
-* Connect to your Public Server from an AWS Manangement Console
+* Connect to your Public Server from the AWS Management Console
 
 * Test connectivity between two EC2 instances
  
@@ -12,7 +12,7 @@
 
 * Set up a VPC & Network ACL
 
-* Create two seperate EC2 Instances
+* Create two separate EC2 Instances
 
 * Connect to the EC2 instance using EC2 Instance Connect after resolving a connection error
 
@@ -21,7 +21,7 @@
 * Test VPC Connectivity with the internet
 
 
-#### Step by Step Instructions guidance
+#### Step-by-Step instructions guidance:
 
 **CREATE VPC & NETWORK ACL**
 
